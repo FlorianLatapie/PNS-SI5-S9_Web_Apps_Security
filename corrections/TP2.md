@@ -145,9 +145,8 @@ L'une des manières de faire est d'utiliser une balise img.
 
 `window.location.hash` permet de récupérer les fragments qui sont spécifiés dans l'url par l'utilisateur c'est-à-dire, l'ensemble des paramètres spécifiés après le caractère `#`.
 
-```txt
-http://localhost:8080/tp2/ressources/domxss6.html#myhash'onmouseover='alert(1)
-```
+[http://localhost:8080/tp2/ressources/domxss6.html#myhash'onmouseover='alert(1)](
+http://localhost:8080/tp2/ressources/domxss6.html#myhash'onmouseover='alert(1))
 
 Note : on ne peut pas encoder les caractères `"` et `'` avec des `%22` et `%27` car le navigateur va les décoder et les interpréter comme les trois caractères et pas leur valeur encodée.
 

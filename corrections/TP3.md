@@ -126,8 +126,7 @@ Nous devrions pouvoir afficher le secret dans une balise alert. Pour que cela fo
 
 Il faut que la page principale définisse explicitement la valeur de `document.domain`.
 
-**Question 3 : Write two different services from the same server that set a cookie.**  
-**On the client side include a gadget et an try the following things:**
+**Question 3 : Write two different services from the same server that set a cookie. On the client side include a gadget et an try the following things:**
 
 - let the gadget delete the cookie via JavaScript
 - can the second service delete the cookie of the first? Justify why.
